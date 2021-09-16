@@ -1,0 +1,45 @@
+.Alive{
+    background-color: rgb(161, 226, 161);
+}
+
+.Dead{
+    background-color: rgb(238, 150, 150);
+}
+
+.unknown{
+    background-color: rgb(202, 197, 197);
+}
+
+.mainDiv__Characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardDiv{
+    width: 49%;
+    margin-bottom: 5px;
+}
+.cardDiv__img{
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (min-width: 768px){
+    .cardDiv{
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .cardDiv{
+        width: 24%;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .cardDiv{
+        width: 19%;
+    }
+}
